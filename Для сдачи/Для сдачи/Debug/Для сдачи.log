@@ -1,3 +1,2 @@
 ﻿  Source.cpp
-c:\users\bosss\desktop\для сдачи\для сдачи\source.cpp(38): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Для сдачи.vcxproj -> C:\Users\bosss\Desktop\Для сдачи\Debug\Для сдачи.exe

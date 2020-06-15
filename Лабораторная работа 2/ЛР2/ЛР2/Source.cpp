@@ -29,8 +29,6 @@ int main()
 				if (x >= b)
 					temp = tan(x);
 
-		if ((x >= a) && (x <= b + d))
-		{
 			if (temp < x_min)
 			{
 				x_min = temp;
@@ -39,7 +37,7 @@ int main()
 			{
 				x_max = temp;
 			}
-		}
+
 		cout << x << " | " << temp  << endl;
 	}
 	cout << endl;

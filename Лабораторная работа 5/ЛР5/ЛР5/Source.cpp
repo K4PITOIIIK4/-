@@ -149,7 +149,7 @@ int main()
 	int man_age = man - no_age_man;
 	int wom_age = woman - no_age_wom;
 	cvs.close();
-	ofstream Table("table1.csv");
+	ofstream Table("table.csv");
 	if (!Table.is_open())
 		cout << "Файл вывода не открыт!" << endl;
 	else {
@@ -185,6 +185,8 @@ int main()
 		Table << "\"\r";
 		Table.close();
 	}
+	system("cls");
+	cout << "Готово!" << endl;
 	system("pause");
 	return 0;
 }
